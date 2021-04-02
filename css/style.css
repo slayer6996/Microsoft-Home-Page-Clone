@@ -40,3 +40,180 @@ body{
     color: black;
     text-decoration: none;
 }
+
+.navbar-nav > li > a:hover{
+    text-decoration: underline;
+}
+
+.navbar-brand{
+    color:gray;
+    font-weight: 4rem;
+    margin-left: 0.5%;
+}
+
+.navbar-toggler-icon{
+    color:black;
+}
+
+.carousel{
+    margin: 0 5.5%;
+}
+
+.floating-on-img1{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    color: white;
+}
+
+.floating-on-img1 .btn, .floating-on-img2 .btn, .floating-on-img3 .btn{
+    border-radius: 0;
+}
+
+.floating-on-img2{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    color: black;
+}
+
+.wrapper1{
+    display: grid;
+    grid-template-columns: 21% 10% 10% 10% 10% 21%;
+    grid-column-gap: 3%;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+
+.grid-item{
+    text-align: center;
+}
+.grid-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;;
+}
+
+.products{
+    margin: 0 5% 5% 5%;
+    padding: 1%;
+}
+
+.products img{
+    width: 95%;
+    margin-bottom: 12%;
+}
+
+.products .col{
+    cursor: pointer;
+}
+
+.onedrive img{
+    margin: 0 5.5% 5.5% 5%;
+    width: 88%;
+    z-index: -1;
+}
+
+.floating-on-img3{
+    position: absolute;
+    top:225%;
+    left: 10%;
+    color: black;
+}
+
+.forbusiness, .covid, .socialmedia{
+    margin: 0 5% 5% 5%;
+}
+
+.forbusiness img{
+    width: 95%;
+    margin-bottom: 12%;
+}
+
+.covid{
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    padding: 1% 0 1%;
+}
+
+.covid a{
+    text-decoration: none;
+    color: black;
+}
+
+.socialmedia a{
+    margin: 0.5% 0.5%;
+    justify-items: center;
+}
+
+.fa-facebook-square{
+    color: blue;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+.footer{
+    margin-right: 0;
+    background-color: rgb(214, 214, 214);    
+}
+
+.footer .row .col{
+    display: inline;
+    line-height: 2.5;
+    margin:3%;
+    width: fit-content;
+}
+
+.footer .row{
+    width: 100%;
+}
+
+.footer .row .col a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: small;
+}
+
+.footer .row .col a:hover{
+    text-decoration: underline;
+}
+
+.details{
+    margin: 1.5% 5% 1%;
+    width:fit-content;
+}
+
+.details .lang{
+    display: inline-block;
+}
+
+.details .contact{
+    display: inline-block;
+    position: absolute;
+    right: 6%;
+    white-space: nowrap;
+}
+
+.details .contact a, .details .contact p{
+    display: inline;
+    text-decoration: none;
+    color: gray;
+    margin: 1% 0.5%;
+    font-size: small;
+}
+
+.details .contact a:hover{
+    text-decoration: underline;
+}
+
+.details .lang a{
+    text-decoration: none;
+    color: gray;
+}
+
+.details .lang a:hover{
+    text-decoration: underline;
+}
